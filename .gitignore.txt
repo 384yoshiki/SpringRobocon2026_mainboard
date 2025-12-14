@@ -1,0 +1,7 @@
+# KiCadのバックアップと一時ファイルを無視する設定
+*-backups/
+fp-info-cache
+*.lck
+*.bak
+*.kicad_prl
+_autosave-*
