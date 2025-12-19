@@ -5439,7 +5439,7 @@
 	)
 	(text "DCMD"
 		(exclude_from_sim no)
-		(at 271.78 205.232 0)
+		(at 272.542 205.232 0)
 		(effects
 			(font
 				(size 5.08 5.08)
