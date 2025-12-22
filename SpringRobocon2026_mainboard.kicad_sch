@@ -5969,7 +5969,7 @@
 	)
 	(text "SERVO"
 		(exclude_from_sim no)
-		(at 264.414 154.178 0)
+		(at 263.144 153.67 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -8497,16 +8497,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 170.18) (xy 278.13 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d82e7304-5a81-47b3-8785-f15692fc5d3c")
-	)
-	(wire
-		(pts
 			(xy 101.6 53.34) (xy 111.76 53.34)
 		)
 		(stroke
@@ -8654,16 +8644,6 @@
 			(type default)
 		)
 		(uuid "e6885227-ff27-44dd-ad64-e5d621536d9e")
-	)
-	(wire
-		(pts
-			(xy 278.13 180.34) (xy 278.13 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6ce0a46-5c34-4591-b2bd-3e7eb4c687ce")
 	)
 	(wire
 		(pts
@@ -8933,28 +8913,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM_servo"
-		(shape input)
-		(at 278.13 170.18 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "03da41a3-29d0-49e9-a4f0-ceb1167b3f28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.13 157.1143 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -14884,75 +14842,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 278.13 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72cb46c8-765e-47f1-9e5b-32c10e8bfb18")
-		(property "Reference" "C17"
-			(at 281.94 175.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 281.94 178.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 279.0952 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 278.13 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 278.13 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23d33a5d-4d7e-45e1-a3ea-fc38c6e9cfd6")
-		)
-		(pin "2"
-			(uuid "e4b833b5-a397-4943-87a5-dcfc6cf09eb1")
-		)
-		(instances
-			(project "SpringRobocon2026_mainboard"
-				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_DIP_x02")
 		(at 273.05 270.51 0)
 		(unit 1)
@@ -19843,70 +19732,6 @@
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 278.13 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f574e882-1fc7-47ce-a487-58adb6c76c89")
-		(property "Reference" "#PWR054"
-			(at 278.13 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 278.13 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 278.13 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 278.13 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "678794c1-5fc8-4d22-886e-d7d74f212b6a")
-		)
-		(instances
-			(project "SpringRobocon2026_mainboard"
-				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
