@@ -5,6 +5,256 @@
 	(uuid "1ce480f8-d983-42c4-9888-4513037ff8c9")
 	(paper "A3")
 	(lib_symbols
+		(symbol "+12V_4"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_4_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_4_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "+12V_5"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_5_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_5_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "+3V3_2"
 			(power)
 			(pin_numbers
@@ -2600,6 +2850,304 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyLib:MTA100N10KRI3"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q?"
+				(at 5.207 0.6437 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MTA100N10KRI3"
+				(at 5.207 -1.2773 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-251-3_Vertical"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 10A, N-Channel MOSFET, TO-251"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MTA100N10KRI3_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MTA100N10KRI3_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5662,6 +6210,17 @@
 		)
 		(uuid "2455c79e-1bd2-40ce-a08c-6b88d9861bc5")
 	)
+	(text "SOLENOID"
+		(exclude_from_sim no)
+		(at 251.206 160.02 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "2980f332-db88-4990-8b94-165d18f4ebec")
+	)
 	(text "X\n"
 		(exclude_from_sim no)
 		(at 78.994 108.966 0)
@@ -5969,13 +6528,19 @@
 	)
 	(text "SERVO"
 		(exclude_from_sim no)
-		(at 263.144 153.67 0)
+		(at 319.024 203.2 0)
 		(effects
 			(font
 				(size 5.08 5.08)
 			)
 		)
 		(uuid "faf674a2-edec-4b78-b7e0-0f50c525000e")
+	)
+	(junction
+		(at 261.62 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02c8a366-27ce-462b-bc95-47a86e7e05ad")
 	)
 	(junction
 		(at 209.55 264.16)
@@ -6014,7 +6579,7 @@
 		(uuid "27df888e-26f4-42df-9b38-e99d97534732")
 	)
 	(junction
-		(at 259.08 176.53)
+		(at 314.96 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c951611-2740-434a-a4f1-4c926e1ffc67")
@@ -6086,6 +6651,18 @@
 		(uuid "799f418a-ad01-48d2-bff1-126bf3c95524")
 	)
 	(junction
+		(at 256.54 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85f8405b-8481-4790-836c-3e21640064bb")
+	)
+	(junction
+		(at 266.7 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cd46352-7ca0-4371-8899-d7bc46555069")
+	)
+	(junction
 		(at 149.86 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6108,6 +6685,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0918987-dea7-4101-b4d4-4f0b5b6b9d2f")
+	)
+	(junction
+		(at 266.7 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4aa1ccc-1796-45f7-8db2-5af802810f39")
 	)
 	(junction
 		(at 164.465 40.64)
@@ -6224,10 +6807,6 @@
 		(uuid "18fe7bc9-9b55-40e6-b223-e90901b97098")
 	)
 	(no_connect
-		(at 250.19 104.14)
-		(uuid "1944a300-4454-4af5-adcf-e6c940270167")
-	)
-	(no_connect
 		(at 250.19 83.82)
 		(uuid "28272783-b9ad-493b-a93d-2ab10caecd87")
 	)
@@ -6292,10 +6871,6 @@
 		(uuid "6db5827b-23ee-4460-9b43-ae6e804b0060")
 	)
 	(no_connect
-		(at 322.58 97.79)
-		(uuid "6e512dcb-e113-436b-a99b-37c171c509e6")
-	)
-	(no_connect
 		(at 358.14 52.07)
 		(uuid "6ed94390-44a9-41db-8e59-faeb7c01ecb7")
 	)
@@ -6340,10 +6915,6 @@
 		(uuid "a64c6af9-070d-4394-a1db-40ca0ba7adb0")
 	)
 	(no_connect
-		(at 250.19 73.66)
-		(uuid "a6579e76-a311-4199-8e70-29d9c6642d6b")
-	)
-	(no_connect
 		(at 322.58 77.47)
 		(uuid "ae1f1abf-aab3-416d-9c49-656065e99df2")
 	)
@@ -6370,6 +6941,10 @@
 	(no_connect
 		(at 250.19 109.22)
 		(uuid "e85769b3-a9dc-4967-afc4-03fc6938c23f")
+	)
+	(no_connect
+		(at 322.58 97.79)
+		(uuid "ee9d215d-83ae-4187-8167-98ef7a840e24")
 	)
 	(no_connect
 		(at 171.45 152.4)
@@ -6537,6 +7112,26 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 194.31) (xy 246.38 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab2dc93-12e7-4b4f-b588-dd948969fd6f")
+	)
+	(wire
+		(pts
+			(xy 256.54 194.31) (xy 259.08 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aedf130-e594-40e6-a9c8-c6683523cff5")
+	)
+	(wire
+		(pts
 			(xy 359.41 229.87) (xy 359.41 233.68)
 		)
 		(stroke
@@ -6577,7 +7172,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 176.53) (xy 259.08 176.53)
+			(xy 309.88 226.06) (xy 314.96 226.06)
 		)
 		(stroke
 			(width 0)
@@ -6654,6 +7249,26 @@
 			(type default)
 		)
 		(uuid "141d7b45-bbc1-481e-820a-efd3c92f3a99")
+	)
+	(wire
+		(pts
+			(xy 247.65 104.14) (xy 250.19 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15053785-cfa3-46f9-8937-8e02c37be25b")
+	)
+	(wire
+		(pts
+			(xy 254 194.31) (xy 256.54 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15708607-f92d-4fa0-91bb-72c043159020")
 	)
 	(wire
 		(pts
@@ -6764,6 +7379,16 @@
 			(type default)
 		)
 		(uuid "1f6fda1f-21e1-467f-9d7a-7d26ca41cf8f")
+	)
+	(wire
+		(pts
+			(xy 269.24 176.53) (xy 266.7 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203e0566-cb8f-4b55-a341-08b1e247f89d")
 	)
 	(wire
 		(pts
@@ -6887,6 +7512,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 181.61) (xy 261.62 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9f55b1-1df3-4faf-99cc-7a28c0d54257")
+	)
+	(wire
+		(pts
 			(xy 107.95 30.48) (xy 101.6 30.48)
 		)
 		(stroke
@@ -7007,6 +7642,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 163.83) (xy 238.76 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3875f98d-a69e-48f2-a8bd-4d28b502e42a")
+	)
+	(wire
+		(pts
 			(xy 149.86 152.4) (xy 149.86 154.94)
 		)
 		(stroke
@@ -7077,7 +7722,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 173.99) (xy 259.08 176.53)
+			(xy 314.96 223.52) (xy 314.96 226.06)
 		)
 		(stroke
 			(width 0)
@@ -7094,6 +7739,16 @@
 			(type default)
 		)
 		(uuid "406ba2ad-46d1-41cf-9882-89d433ab844e")
+	)
+	(wire
+		(pts
+			(xy 261.62 171.45) (xy 261.62 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40cc7bcb-2d82-4019-9169-10c20d4a73a7")
 	)
 	(wire
 		(pts
@@ -7157,6 +7812,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 176.53) (xy 266.7 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45188a45-3d7b-4c2a-b415-6fb8999c6ebe")
+	)
+	(wire
+		(pts
 			(xy 166.37 149.86) (xy 166.37 162.56)
 		)
 		(stroke
@@ -7167,13 +7832,23 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 171.45) (xy 254 171.45)
+			(xy 314.96 220.98) (xy 309.88 220.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4835599d-dca1-46a0-b25a-670b22d74f5c")
+	)
+	(wire
+		(pts
+			(xy 261.62 185.42) (xy 266.7 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "483c0874-2dbb-4de0-8e87-c95a162edf48")
 	)
 	(wire
 		(pts
@@ -7407,6 +8082,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 207.01) (xy 266.7 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60fa453a-8b7f-4e3b-9378-ccb5c00d0690")
+	)
+	(wire
+		(pts
 			(xy 247.65 99.06) (xy 250.19 99.06)
 		)
 		(stroke
@@ -7447,7 +8132,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 176.53) (xy 259.08 179.07)
+			(xy 314.96 226.06) (xy 314.96 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7467,7 +8152,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 173.99) (xy 259.08 173.99)
+			(xy 309.88 223.52) (xy 314.96 223.52)
 		)
 		(stroke
 			(width 0)
@@ -7484,6 +8169,16 @@
 			(type default)
 		)
 		(uuid "689803e0-4e88-4dac-b467-5c4c5a3d6e2b")
+	)
+	(wire
+		(pts
+			(xy 261.62 171.45) (xy 266.7 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfb9dba-6363-418d-a439-b87ec12dab6e")
 	)
 	(wire
 		(pts
@@ -7534,6 +8229,16 @@
 			(type default)
 		)
 		(uuid "7406835f-a253-4074-a318-907d3e018255")
+	)
+	(wire
+		(pts
+			(xy 256.54 194.31) (xy 256.54 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74533faf-9a5c-4525-b1c4-cf8a2081772e")
 	)
 	(wire
 		(pts
@@ -7634,6 +8339,16 @@
 			(type default)
 		)
 		(uuid "7c5966cf-c475-44fb-aa3f-27ee6b471252")
+	)
+	(wire
+		(pts
+			(xy 266.7 207.01) (xy 266.7 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc3c5f0-a69f-42c2-bfaf-c6b84c166f96")
 	)
 	(wire
 		(pts
@@ -7784,6 +8499,16 @@
 			(type default)
 		)
 		(uuid "89718750-5eb2-46fd-9c89-a768fd3bde47")
+	)
+	(wire
+		(pts
+			(xy 266.7 199.39) (xy 266.7 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89fb1919-c425-43c9-a890-f4804d8a8c07")
 	)
 	(wire
 		(pts
@@ -8047,6 +8772,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 179.07) (xy 269.24 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7021dea-774a-46b5-b03e-99c02f131f3c")
+	)
+	(wire
+		(pts
 			(xy 38.1 142.24) (xy 38.1 146.685)
 		)
 		(stroke
@@ -8104,6 +8839,16 @@
 			(type default)
 		)
 		(uuid "aceac7be-ced9-46a7-8805-536619695879")
+	)
+	(wire
+		(pts
+			(xy 256.54 207.01) (xy 256.54 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad38c6b6-32d1-4313-878e-9c4ce927c47b")
 	)
 	(wire
 		(pts
@@ -8204,6 +8949,16 @@
 			(type default)
 		)
 		(uuid "b9392ddf-7893-4ffa-8609-527aef95f793")
+	)
+	(wire
+		(pts
+			(xy 247.65 73.66) (xy 250.19 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "babd40ee-0ad7-4709-96c6-81333f8e0faa")
 	)
 	(wire
 		(pts
@@ -8344,6 +9099,16 @@
 			(type default)
 		)
 		(uuid "c82499c9-5c1d-4201-b31e-8deeb457eb3d")
+	)
+	(wire
+		(pts
+			(xy 266.7 185.42) (xy 266.7 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c888ba2e-f261-4e5f-a960-c24b90a9b18e")
 	)
 	(wire
 		(pts
@@ -8527,6 +9292,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 185.42) (xy 266.7 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df88ab6a-21e1-44a2-a371-ab9f1a80c398")
+	)
+	(wire
+		(pts
 			(xy 358.14 125.73) (xy 360.68 125.73)
 		)
 		(stroke
@@ -8544,6 +9319,16 @@
 			(type default)
 		)
 		(uuid "dfceb07a-ea75-4826-9657-09978e273e4e")
+	)
+	(wire
+		(pts
+			(xy 238.76 173.99) (xy 238.76 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe3f01c-99cd-4111-99fa-7ba21dc049aa")
 	)
 	(wire
 		(pts
@@ -8877,6 +9662,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 167.64) (xy 261.62 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff21ec70-1120-40a0-9035-e526164bd341")
+	)
+	(wire
+		(pts
 			(xy 38.1 193.04) (xy 38.1 197.485)
 		)
 		(stroke
@@ -8919,7 +9714,7 @@
 	)
 	(global_label "PWM_servo"
 		(shape input)
-		(at 259.08 171.45 0)
+		(at 314.96 220.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8929,7 +9724,7 @@
 		)
 		(uuid "03e6c281-e72d-44eb-b19c-7eff05ea337b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.2251 171.45 0)
+			(at 328.1051 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9018,6 +9813,28 @@
 		(uuid "11caabe1-014d-4cd2-ac0c-24bf1ea62583")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.6993 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SOLENOID"
+		(shape input)
+		(at 243.84 194.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12860e57-95ea-446e-9275-026802abd10e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.6813 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,6 +10416,28 @@
 			)
 		)
 	)
+	(global_label "PWM_servo"
+		(shape input)
+		(at 247.65 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7a3ef90-4a92-4758-bfe1-b81ff56f3b24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.5049 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "En1_A_Tim1_CH1"
 		(shape input)
 		(at 320.04 72.39 180)
@@ -9885,6 +10724,28 @@
 			)
 		)
 	)
+	(global_label "SOLENOID"
+		(shape input)
+		(at 247.65 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb1e59cd-7f1b-438a-8ef8-226994e647ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.4913 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+3V3")
 		(at 387.35 208.28 0)
@@ -9895,7 +10756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0114578e-130a-4d5d-be3d-e09e97a6edf9")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR072"
 			(at 387.35 212.09 0)
 			(effects
 				(font
@@ -9944,7 +10805,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR069")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -9960,7 +10821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "014112f3-78af-4325-a29c-048b396f9fe0")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR060"
 			(at 297.18 50.8 0)
 			(effects
 				(font
@@ -10010,7 +10871,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR058")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -10217,6 +11078,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 266.7 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09f0c088-f321-427e-b36d-f388bbab132b")
+		(property "Reference" "#PWR056"
+			(at 266.7 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5c2d1f0-699b-4580-a358-6f5f4dca508e")
+		)
+		(instances
+			(project "SpringRobocon2026_mainboard"
+				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 102.87 260.35 0)
 		(unit 1)
@@ -10296,7 +11222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0aabb579-9f58-40c0-83fa-f1d3de0a44d4")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR066"
 			(at 360.68 135.89 0)
 			(effects
 				(font
@@ -10345,7 +11271,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR063")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -10422,7 +11348,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 248.92 173.99 0)
+		(at 304.8 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10430,8 +11356,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ceece00-81b1-4c26-b932-db4fb12c2d9d")
-		(property "Reference" "J8"
-			(at 249.555 166.37 0)
+		(property "Reference" "J9"
+			(at 305.435 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10439,7 +11365,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 249.555 168.91 0)
+			(at 305.435 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10447,7 +11373,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 248.92 173.99 0)
+			(at 304.8 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10456,7 +11382,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 173.99 0)
+			(at 304.8 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10465,7 +11391,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 248.92 173.99 0)
+			(at 304.8 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10485,7 +11411,7 @@
 		(instances
 			(project ""
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -10571,7 +11497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1015a591-5971-4896-acc0-55d26d4219bc")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 295.91 137.16 0)
 			(effects
 				(font
@@ -10620,7 +11546,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR056")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -10637,7 +11563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11f08c73-c0f0-41af-9488-438ab126ecc7")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR076"
 			(at 393.7 184.15 0)
 			(effects
 				(font
@@ -10687,7 +11613,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR073")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -10703,7 +11629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12bc7c29-2421-41e4-a11b-2c52c5f2e55f")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 283.21 279.4 0)
 			(effects
 				(font
@@ -10753,7 +11679,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -11194,7 +12120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2562bf42-2d5c-4699-b85b-1527df7855d6")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 254 246.38 0)
 			(effects
 				(font
@@ -11244,7 +12170,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -11259,7 +12185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "262e86c1-144d-4600-afa2-0272992d768b")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR065"
 			(at 359.41 240.03 0)
 			(effects
 				(font
@@ -11308,7 +12234,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR062")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -12000,6 +12926,73 @@
 		)
 	)
 	(symbol
+		(lib_name "+12V_4")
+		(lib_id "power:+12V")
+		(at 261.62 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a6dabc8-bdbb-4df4-af86-f834975f1be9")
+		(property "Reference" "#PWR055"
+			(at 261.62 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 261.62 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 261.62 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "789ed210-e22f-4bc2-8056-f20f209b78a9")
+		)
+		(instances
+			(project "SpringRobocon2026_mainboard"
+				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 38.1 146.685 0)
 		(unit 1)
@@ -12272,7 +13265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33f311da-bea1-49ad-9f66-e4c976712b44")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR069"
 			(at 373.38 240.03 0)
 			(effects
 				(font
@@ -12321,7 +13314,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR066")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -12518,6 +13511,141 @@
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 250.19 194.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37b64191-50b0-470c-8392-8ca5ffa923cd")
+		(property "Reference" "R13"
+			(at 250.19 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 250.19 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 250.19 196.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ca9d443-c22d-4158-aad1-4ccc7bcaca9d")
+		)
+		(pin "2"
+			(uuid "753f5546-317b-4164-8302-fa4c7fb0509a")
+		)
+		(instances
+			(project "SpringRobocon2026_mainboard"
+				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 256.54 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37bad4b1-7933-43d7-b3d8-f938b1a51d16")
+		(property "Reference" "R15"
+			(at 259.08 200.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 259.08 202.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 254.762 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e87b204-21fd-4ea8-b737-27a8b59cf5ed")
+		)
+		(pin "2"
+			(uuid "716dfe5a-1163-4cd4-ab35-d684d35d8fc1")
+		)
+		(instances
+			(project "SpringRobocon2026_mainboard"
+				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -12727,15 +13855,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 179.07 0)
+		(at 314.96 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "46091e71-ddfe-49c4-ba77-04030bb83c23")
-		(property "Reference" "#PWR053"
-			(at 259.08 185.42 0)
+		(property "Reference" "#PWR061"
+			(at 314.96 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12744,7 +13872,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 182.88 0)
+			(at 314.96 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12752,7 +13880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 179.07 0)
+			(at 314.96 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12761,7 +13889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 179.07 0)
+			(at 314.96 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12770,7 +13898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 179.07 0)
+			(at 314.96 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12783,7 +13911,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR053")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -12799,7 +13927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ac7bb30-9234-4bc1-884b-82a1552d40b8")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 363.22 227.0125 90)
 			(effects
 				(font
@@ -12852,7 +13980,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -12936,7 +14064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e058c88-1e66-4f79-afed-2b09e1061f21")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR059"
 			(at 298.45 49.53 0)
 			(effects
 				(font
@@ -12985,7 +14113,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR057")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -13001,7 +14129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f176fc7-af29-4325-b038-3ed29969f847")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 265.43 253.9999 0)
 			(effects
 				(font
@@ -13055,7 +14183,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -13415,7 +14543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c2da053-6c4e-4f03-801f-cf429c56a3a1")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR071"
 			(at 378.46 135.89 0)
 			(effects
 				(font
@@ -13464,7 +14592,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR068")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -13616,7 +14744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f080eaa-550b-473d-bd6e-a1dc38e0076b")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 377.19 227.0125 90)
 			(effects
 				(font
@@ -13669,7 +14797,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -13753,7 +14881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61cdb903-85e7-4a4b-b5cf-5bb1170c89ed")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR064"
 			(at 359.41 212.09 0)
 			(effects
 				(font
@@ -13802,7 +14930,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR061")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -13886,7 +15014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63b6facb-404f-4810-a0a2-e06a89e92b11")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR070"
 			(at 378.46 120.65 0)
 			(effects
 				(font
@@ -13935,7 +15063,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR067")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -14080,7 +15208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66df6a56-a6ab-48e1-818d-22d1c66e2508")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR075"
 			(at 389.89 135.89 0)
 			(effects
 				(font
@@ -14129,7 +15257,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR072")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -14209,7 +15337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69562ebe-7f8b-4e90-92f0-734d28762160")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 389.89 216.535 0)
 			(effects
 				(font
@@ -14262,7 +15390,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -14344,7 +15472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a2fffcc-68c2-44ce-aa51-525015f58d7c")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR063"
 			(at 327.66 173.99 0)
 			(effects
 				(font
@@ -14393,7 +15521,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR060")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -14409,7 +15537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e15f80e-12aa-44ce-85a6-54880eff7b19")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 256.54 253.9999 0)
 			(effects
 				(font
@@ -14463,7 +15591,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -14628,7 +15756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70ecc8d5-b009-48ee-bfce-8402e29380cd")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 375.92 216.535 0)
 			(effects
 				(font
@@ -14681,7 +15809,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -15272,7 +16400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85684938-60e5-4dd8-ad21-d2dbf00dc14d")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 353.695 163.83 0)
 			(effects
 				(font
@@ -15327,7 +16455,7 @@
 		(instances
 			(project ""
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "J10")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -15398,6 +16526,71 @@
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "877dab9a-b0f4-4ceb-9775-b83a65f1b3d2")
+		(property "Reference" "#PWR053"
+			(at 238.76 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "139f0804-1b5d-4535-9798-c4aabf1d020d")
+		)
+		(instances
+			(project "SpringRobocon2026_mainboard"
+				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -15618,7 +16811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9463b1f0-349d-4c7c-bbc9-06b7745c73e7")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR062"
 			(at 318.77 184.15 0)
 			(effects
 				(font
@@ -15668,7 +16861,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR059")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -15734,6 +16927,148 @@
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyLib:MTA100N10KRI3")
+		(at 264.16 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9496034f-8e41-4807-b5c6-9e6fafe7b31a")
+		(property "Reference" "Q1"
+			(at 269.367 193.6663 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MTA100N10KRI3"
+			(at 269.367 195.5873 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-251-3_Vertical"
+			(at 269.24 196.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a067dc3-0082-48b3-b013-38d074048be1")
+		)
+		(pin "2"
+			(uuid "b08bc6ae-f27b-4869-85ab-20c104ade1b2")
+		)
+		(pin "3"
+			(uuid "0aba220b-d943-4f83-9484-66b3e19fd5c6")
+		)
+		(instances
+			(project "SpringRobocon2026_mainboard"
+				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+12V_5")
+		(lib_id "power:+12V")
+		(at 238.76 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "976a4ebd-e215-4320-b03e-1a3b65601eea")
+		(property "Reference" "#PWR052"
+			(at 238.76 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 238.76 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 238.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "951cc921-afa8-49e1-b3f8-ae8516cbcf74")
+		)
+		(instances
+			(project "SpringRobocon2026_mainboard"
+				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -16203,6 +17538,93 @@
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 261.62 177.8 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a397a423-ff01-485f-84f6-df706a955afd")
+		(property "Reference" "D6"
+			(at 259.08 177.165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GS1010FL"
+			(at 259.08 179.705 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 261.62 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 261.62 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 261.62 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22d4d7ce-674d-451d-9396-f5ec3cd47f0c")
+		)
+		(pin "2"
+			(uuid "fa7fe358-424e-48cd-9f20-31f34dd542be")
+		)
+		(instances
+			(project "SpringRobocon2026_mainboard"
+				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -16907,7 +18329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b62d866d-398d-427a-9d02-e8247588ca9f")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR073"
 			(at 387.35 240.03 0)
 			(effects
 				(font
@@ -16956,7 +18378,76 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR070")
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 238.76 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b974a54b-d1f6-4107-a6c0-36361740d456")
+		(property "Reference" "C17"
+			(at 242.57 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 242.57 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 239.7252 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d164aa70-6dea-4532-85ea-eaba79f7c317")
+		)
+		(pin "2"
+			(uuid "ce420419-fd32-41e3-99e6-206aa8debf5d")
+		)
+		(instances
+			(project "SpringRobocon2026_mainboard"
+				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -17042,7 +18533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc03aad2-fbc2-48ff-8a2c-f898af8428e3")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR074"
 			(at 389.89 120.65 0)
 			(effects
 				(font
@@ -17091,7 +18582,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR071")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -17592,7 +19083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cac21699-7074-49a7-9841-af15106d462d")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 361.95 216.535 0)
 			(effects
 				(font
@@ -17645,7 +19136,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -17867,7 +19358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6a1480b-f6cc-44e9-b637-b36d4f7a7372")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR067"
 			(at 361.95 184.15 0)
 			(effects
 				(font
@@ -17917,7 +19408,7 @@
 		(instances
 			(project ""
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR064")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -18681,7 +20172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dffc1dd3-716a-44b3-978c-299f8a96e569")
-		(property "Reference" "J11"
+		(property "Reference" "J12"
 			(at 385.445 163.83 0)
 			(effects
 				(font
@@ -18736,7 +20227,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "J11")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -18751,7 +20242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2537619-6149-4b59-bdc3-2f2750c4d31e")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR068"
 			(at 373.38 212.09 0)
 			(effects
 				(font
@@ -18800,7 +20291,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "#PWR065")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -19310,7 +20801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eac98454-b714-4104-98bf-7314179f7333")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 391.16 227.0125 90)
 			(effects
 				(font
@@ -19363,7 +20854,7 @@
 		(instances
 			(project "SpringRobocon2026_mainboard"
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -19738,6 +21229,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 274.32 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4f6ddc4-a0c5-4c1a-ba81-47223c134a6b")
+		(property "Reference" "J8"
+			(at 275.0312 177.1563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SOLENOID1"
+			(at 275.0312 179.0773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 274.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8046a061-7c63-4697-b12e-44705e157524")
+		)
+		(pin "2"
+			(uuid "acf4dc75-dead-4cc2-baeb-26b2f9f21d5d")
+		)
+		(instances
+			(project "SpringRobocon2026_mainboard"
+				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+5V_2")
 		(lib_id "power:+5V")
 		(at 71.12 97.79 0)
@@ -19813,7 +21373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f67c100e-f14c-43d2-8adb-64d051b25f20")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 307.975 162.56 0)
 			(effects
 				(font
@@ -19871,7 +21431,7 @@
 		(instances
 			(project ""
 				(path "/1ce480f8-d983-42c4-9888-4513037ff8c9"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
 				)
 			)
